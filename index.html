@@ -96,6 +96,15 @@
   .why-item h3{font-size:16px;color:var(--gold2);margin-bottom:4px}
   .why-item p{font-size:13.5px;color:#dcefe4}
 
+  /* ---------- Gallery ---------- */
+  .gallery-video{max-width:400px;margin:0 auto 22px;border-radius:18px;overflow:hidden;box-shadow:0 4px 18px rgba(11,61,46,.15);border:1px solid #e7dfc4;background:#000}
+  .gallery-video video{display:block;width:100%;height:auto}
+  .photo-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  @media(min-width:960px){.photo-grid{grid-template-columns:1fr 1fr 1fr}}
+  .photo-grid figure{border-radius:14px;overflow:hidden;border:1px solid #e7dfc4;box-shadow:0 4px 14px rgba(11,61,46,.08);background:#fff;margin:0}
+  .photo-grid img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+  .gallery-note{text-align:center;color:var(--muted);font-size:14px;margin-top:16px}
+
   /* ---------- Contact ---------- */
   .contact-cards{display:grid;grid-template-columns:1fr;gap:14px;max-width:720px;margin:0 auto}
   @media(min-width:640px){.contact-cards{grid-template-columns:1fr 1fr 1fr}}
@@ -371,6 +380,32 @@
       </article>
 
     </div>
+  </div>
+</section>
+
+<!-- ============ SITE PHOTOS & VIDEO ============ -->
+<section id="gallery">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">On The Ground</div>
+      <h2>Site Photos &amp; Video</h2>
+      <p>Real photos and video from our plot sites around Rourkela (Jhirpani area) — see the land, the approach road and the surroundings for yourself.</p>
+    </div>
+    <div class="gallery-video">
+      <video controls preload="metadata" poster="photo-1.jpg" playsinline>
+        <source src="site-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="photo-grid">
+      <figure><img src="photo-1.jpg" alt="Plot site, Rourkela" loading="lazy"></figure>
+      <figure><img src="photo-2.jpg" alt="Plot site, Rourkela" loading="lazy"></figure>
+      <figure><img src="photo-3.jpg" alt="Plot site, Rourkela" loading="lazy"></figure>
+      <figure><img src="photo-4.jpg" alt="Plot site, Rourkela" loading="lazy"></figure>
+      <figure><img src="photo-5.jpg" alt="Plot site, Rourkela" loading="lazy"></figure>
+      <figure><img src="photo-6.jpg" alt="Plot site, Rourkela" loading="lazy"></figure>
+    </div>
+    <p class="gallery-note">Photos &amp; video: actual site, Rourkela plots (Jhirpani area). For the exact plot location of any listing, call or WhatsApp us.</p>
   </div>
 </section>
 
