@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prajapati Developer — Plots & Property in Rourkela | Your Dreams, Our Plots!</title>
+<meta name="description" content="Prajapati Developer — Plots & Property in Rourkela, Odisha. Premium plots in Nuagaon, Ushra, Garjan, Bartoli, Bangurkela, Kuarmunda, Kacharu and more. Call 6371405733.">
+<style>
+  :root{
+    --green:#0b3d2e; --green2:#145c43; --green3:#1e7a57;
+    --gold:#c9a227; --gold2:#e3c766; --cream:#faf5e9; --cream2:#f3ead2;
+    --ink:#1d2b24; --muted:#5c6b62; --white:#ffffff;
+    --wa:#25d366;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--cream);color:var(--ink);line-height:1.55}
+  a{text-decoration:none;color:inherit}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+
+  /* ---------- Header ---------- */
+  header{position:sticky;top:0;z-index:50;background:var(--green);color:#fff;box-shadow:0 2px 12px rgba(0,0,0,.25)}
+  .head-in{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;max-width:1080px;margin:0 auto}
+  .brand{font-weight:800;font-size:19px;letter-spacing:.4px;line-height:1.2}
+  .brand small{display:block;font-weight:500;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold2)}
+  .head-call{background:var(--gold);color:#231f08;font-weight:800;font-size:14px;padding:9px 16px;border-radius:999px;white-space:nowrap}
+  .head-call:hover{background:var(--gold2)}
+
+  /* ---------- Hero ---------- */
+  .hero{background:linear-gradient(160deg,var(--green) 0%,var(--green2) 55%,#0a2f24 100%);color:#fff;text-align:center;padding:52px 16px 46px;position:relative;overflow:hidden}
+  .hero::after{content:"";position:absolute;left:50%;bottom:-90px;transform:translateX(-50%);width:560px;height:180px;background:radial-gradient(ellipse at center,rgba(201,162,39,.35),transparent 70%);pointer-events:none}
+  .hero .kicker{color:var(--gold2);font-weight:700;letter-spacing:3px;text-transform:uppercase;font-size:12px}
+  .hero h1{font-size:clamp(34px,8vw,56px);line-height:1.08;font-weight:900;margin:10px 0 6px}
+  .hero h1 span{color:var(--gold2)}
+  .hero .tag{font-size:clamp(18px,4.5vw,24px);font-weight:700;color:var(--gold2);font-style:italic;margin-bottom:10px}
+  .hero p.sub{max-width:640px;margin:0 auto 22px;color:#dcefe4;font-size:16px}
+  .cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;position:relative;z-index:1}
+  .btn{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:15px;padding:13px 22px;border-radius:999px}
+  .btn-wa{background:var(--wa);color:#062b16}
+  .btn-call{background:var(--gold);color:#231f08}
+  .btn-ghost{border:2px solid rgba(255,255,255,.6);color:#fff}
+  .facts{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:26px;position:relative;z-index:1}
+  .fact{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:12px;padding:10px 16px;font-size:14px}
+  .fact b{display:block;font-size:17px;color:var(--gold2)}
+
+  /* ---------- Areas strip ---------- */
+  .areas{background:var(--cream2);border-bottom:1px solid #e3d9bd;padding:18px 0}
+  .areas h2{font-size:13px;letter-spacing:2.5px;text-transform:uppercase;color:var(--muted);text-align:center;margin-bottom:12px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+  .chip{background:#fff;border:1px solid #ddd2ae;color:var(--green);font-weight:700;font-size:13.5px;padding:7px 14px;border-radius:999px}
+  .areas p{text-align:center;color:var(--muted);font-size:13px;margin-top:10px}
+
+  /* ---------- Sections ---------- */
+  section{padding:44px 0}
+  .sec-head{text-align:center;margin-bottom:26px}
+  .sec-head .eyebrow{color:var(--gold);font-weight:800;letter-spacing:3px;text-transform:uppercase;font-size:12px}
+  .sec-head h2{font-size:clamp(24px,6vw,34px);font-weight:900;color:var(--green);margin-top:6px}
+  .sec-head p{color:var(--muted);max-width:620px;margin:8px auto 0;font-size:15px}
+
+  /* ---------- Project cards ---------- */
+  .grid{display:grid;grid-template-columns:1fr;gap:18px}
+  @media(min-width:640px){.grid{grid-template-columns:1fr 1fr}}
+  @media(min-width:960px){.grid{grid-template-columns:1fr 1fr 1fr}}
+  .card{background:#fff;border:1px solid #e7dfc4;border-radius:18px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 18px rgba(11,61,46,.08)}
+  .card-top{background:linear-gradient(135deg,var(--green),var(--green3));color:#fff;padding:16px 18px 14px;position:relative}
+  .badge{display:inline-block;background:var(--gold);color:#231f08;font-size:11px;font-weight:800;letter-spacing:1px;text-transform:uppercase;padding:5px 10px;border-radius:999px;margin-bottom:8px}
+  .badge.red{background:#c0392b;color:#fff}
+  .card-top h3{font-size:19px;line-height:1.25;font-weight:800}
+  .card-top .loc{font-size:13.5px;color:#cdeeda;margin-top:4px}
+  .card-body{padding:18px;display:flex;flex-direction:column;flex:1}
+  .price{font-size:26px;font-weight:900;color:var(--green);line-height:1.15}
+  .price small{display:block;font-size:13px;font-weight:600;color:var(--muted);margin-top:2px}
+  .total{font-size:15px;font-weight:800;color:#7a5b00;background:#fdf3cd;border:1px dashed var(--gold);border-radius:10px;padding:8px 12px;margin-top:10px}
+  .meta{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px}
+  .meta span{background:var(--cream);border:1px solid #e7dfc4;border-radius:8px;font-size:13px;font-weight:700;color:var(--green);padding:6px 10px}
+  .highlights{list-style:none;margin:10px 0 16px}
+  .highlights li{font-size:14.5px;color:#33413a;padding:5px 0 5px 26px;position:relative}
+  .highlights li::before{content:"✓";position:absolute;left:2px;top:5px;color:var(--green3);font-weight:900}
+  .card-foot{margin-top:auto;border-top:1px solid #eee5c8;padding-top:14px}
+  .contact-line{font-size:14px;color:var(--muted);margin-bottom:12px}
+  .contact-line b{color:var(--ink)}
+  .contact-line a{color:var(--green);font-weight:800}
+  .wa-btn{display:flex;align-items:center;justify-content:center;gap:8px;background:var(--wa);color:#062b16;font-weight:800;font-size:15px;padding:12px;border-radius:12px;width:100%}
+  .wa-btn:hover{filter:brightness(.95)}
+  .fb-link{display:block;text-align:center;margin-top:10px;font-size:14px;font-weight:700;color:#1877f2}
+  .fb-link:hover{text-decoration:underline}
+
+  /* ---------- Why strip ---------- */
+  .why{background:var(--green);color:#fff}
+  .why .sec-head h2{color:#fff}
+  .why .sec-head p{color:#cdeeda}
+  .why-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(min-width:720px){.why-grid{grid-template-columns:1fr 1fr 1fr 1fr}}
+  .why-item{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:18px 16px;text-align:center}
+  .why-item .ic{font-size:30px;margin-bottom:8px}
+  .why-item h3{font-size:16px;color:var(--gold2);margin-bottom:4px}
+  .why-item p{font-size:13.5px;color:#dcefe4}
+
+  /* ---------- Contact ---------- */
+  .contact-cards{display:grid;grid-template-columns:1fr;gap:14px;max-width:720px;margin:0 auto}
+  @media(min-width:640px){.contact-cards{grid-template-columns:1fr 1fr 1fr}}
+  .c-card{background:#fff;border:1px solid #e7dfc4;border-radius:16px;padding:20px 16px;text-align:center;box-shadow:0 4px 18px rgba(11,61,46,.07)}
+  .c-card .who{font-size:13px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}
+  .c-card a.num{display:block;font-size:23px;font-weight:900;color:var(--green);margin:8px 0 4px;letter-spacing:.5px}
+  .c-card p{font-size:13.5px;color:var(--muted)}
+  .contact-cta{text-align:center;margin-top:26px}
+  .contact-cta .btn{font-size:16px;padding:14px 28px}
+
+  footer{background:#082a1f;color:#9db8ab;text-align:center;padding:26px 16px;font-size:13.5px;line-height:1.7}
+  footer b{color:var(--gold2)}
+  .float-wa{position:fixed;right:16px;bottom:16px;z-index:60;background:var(--wa);color:#062b16;font-weight:800;font-size:14px;padding:13px 18px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.3)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-in">
+    <div class="brand">PRAJAPATI DEVELOPER<small>Plots &amp; Property • Rourkela</small></div>
+    <a class="head-call" href="tel:+916371405733">📞 Call Now</a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<div class="hero">
+  <div class="wrap">
+    <div class="kicker">Plots &amp; Property • Rourkela, Odisha</div>
+    <h1>Prajapati <span>Developer</span></h1>
+    <div class="tag">“Your Dreams, Our Plots!”</div>
+    <p class="sub">Premium residential &amp; investment plots in prime locations across Rourkela — Nuagaon, Ushra, Garjan, Bartoli, Bangurkela, Kuarmunda, Kacharu and more.</p>
+    <div class="cta-row">
+      <a class="btn btn-wa" href="https://wa.me/916371405733?text=Hello%2C%20I%20want%20to%20enquire%20about%20plots%20in%20Rourkela.%20Please%20share%20details." target="_blank" rel="noopener">💬 WhatsApp Us</a>
+      <a class="btn btn-call" href="tel:+916371405733">📞 63714 05733</a>
+      <a class="btn btn-ghost" href="#projects">View Plots ↓</a>
+    </div>
+    <div class="facts">
+      <div class="fact"><b>4 Decimal</b>Minimum Plot Size</div>
+      <div class="fact"><b>Rs.1,60,000</b>Starting Price / Decimal</div>
+      <div class="fact"><b>9 Projects</b>Across Rourkela</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ AREAS ============ -->
+<div class="areas">
+  <div class="wrap">
+    <h2>Areas We Serve — Near Rourkela</h2>
+    <div class="chips">
+      <span class="chip">📍 Garjan</span>
+      <span class="chip">📍 Dandiyapali</span>
+      <span class="chip">📍 Kuarmunda</span>
+      <span class="chip">📍 Jobapanposh</span>
+      <span class="chip">📍 Jobaghat</span>
+      <span class="chip">📍 Jhirpani</span>
+      <span class="chip">📍 Kacharu</span>
+      <span class="chip">📍 Riun</span>
+      <span class="chip">📍 Lohanda</span>
+      <span class="chip">📍 Padampur</span>
+    </div>
+    <p>Plots available in all these locations — call or WhatsApp for the latest availability.</p>
+  </div>
+</div>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Our Projects</div>
+      <h2>Plots &amp; Properties for Sale</h2>
+      <p>Every plot listed below is from Prajapati Developer. Tap “Enquire on WhatsApp” on any plot to ask about it directly.</p>
+    </div>
+
+    <div class="grid">
+
+      <!-- 1. Nuagaon Premium Plots -->
+      <article class="card">
+        <div class="card-top">
+          <span class="badge">Premium</span>
+          <h3>Nuagaon Premium Plots</h3>
+          <div class="loc">📍 Nuagaon, Rourkela</div>
+        </div>
+        <div class="card-body">
+          <div class="price">Rs.1,50,000<small>per decimal only</small></div>
+          <div class="meta"><span>🏡 Residential Plot</span></div>
+          <ul class="highlights">
+            <li>Premium plots in Nuagaon, Rourkela</li>
+            <li>Prime location — ideal for home &amp; investment</li>
+          </ul>
+          <div class="card-foot">
+            <div class="contact-line">Contact: <a href="tel:+916371405733"><b>63714 05733</b></a></div>
+            <a class="wa-btn" href="https://wa.me/916371405733?text=Hello%2C%20I%20am%20interested%20in%20Nuagaon%20Premium%20Plots%2C%20Rourkela.%20Please%20share%20details." target="_blank" rel="noopener">💬 Enquire on WhatsApp</a>
+            <a class="fb-link" href="https://www.facebook.com/share/p/1JZNRdMLiZ/" target="_blank" rel="noopener">View on Facebook ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 2. Nuagaon Market Side Plot -->
+      <article class="card">
+        <div class="card-top">
+          <span class="badge">Prime Location</span>
+          <h3>Nuagaon Market Side Plot</h3>
+          <div class="loc">📍 Prime Location — Nuagaon, Rourkela</div>
+        </div>
+        <div class="card-body">
+          <div class="price">Price on Enquiry<small>Call / WhatsApp for best price</small></div>
+          <ul class="highlights">
+            <li>Just 500 metres from: School &amp; College, Hospital, Hockey Stadium, Petrol Pump, Medical Store, Bike Showroom, Tractor Showroom</li>
+            <li>Only 2 KM from Railway Station</li>
+            <li>Perfect for Residential &amp; Investment purposes</li>
+            <li>Excellent connectivity, near market &amp; essential facilities</li>
+          </ul>
+          <div class="card-foot">
+            <div class="contact-line">Contact: <a href="tel:+916371405733"><b>63714 05733</b></a> | <a href="tel:+917847033507"><b>78470 33507</b></a></div>
+            <a class="wa-btn" href="https://wa.me/916371405733?text=Hello%2C%20I%20am%20interested%20in%20the%20Nuagaon%20Market%20Side%20Plot%2C%20Rourkela.%20Please%20share%20details." target="_blank" rel="noopener">💬 Enquire on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 3. Ushra Plot -->
+      <article class="card">
+        <div class="card-top">
+          <span class="badge red">🔥 Urgent Sale</span>
+          <h3>Ushra Plot</h3>
+          <div class="loc">📍 Prime Location — Ushra, Rourkela</div>
+        </div>
+        <div class="card-body">
+          <div class="price">Rs.2,00,000<small>per decimal</small></div>
+          <div class="total">Total Price: Rs.6,00,000 only</div>
+          <div class="meta"><span>📐 3 Decimal</span><span>🏡 General Residential Plot</span></div>
+          <ul class="highlights">
+            <li>Near Mandira Dam</li>
+            <li>Just 2 KM from Chikanmati New Bridge</li>
+            <li>Only 8 KM from Kuarmunda</li>
+          </ul>
+          <div class="card-foot">
+            <div class="contact-line">Contact: <a href="tel:+916371405734"><b>63714 05734</b></a></div>
+            <a class="wa-btn" href="https://wa.me/916371405733?text=Hello%2C%20I%20am%20interested%20in%20the%20Ushra%20Plot%20%283%20Decimal%2C%20Rs.6%2C00%2C000%29%2C%20Rourkela.%20Please%20share%20details." target="_blank" rel="noopener">💬 Enquire on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 4. Garjan Dandiyapali Plots + Duplex House -->
+      <article class="card">
+        <div class="card-top">
+          <span class="badge">Limited Plots</span>
+          <h3>Garjan Dandiyapali Plots + Duplex House</h3>
+          <div class="loc">📍 Garjan, Dandiyapali — Rourkela</div>
+        </div>
+        <div class="card-body">
+          <div class="price">Price on Enquiry<small>Call / WhatsApp for best price</small></div>
+          <ul class="highlights">
+            <li>Limited plots available</li>
+            <li>Duplex house also available</li>
+          </ul>
+          <div class="card-foot">
+            <div class="contact-line">Contact: <a href="tel:+916371405733"><b>63714 05733</b></a></div>
+            <a class="wa-btn" href="https://wa.me/916371405733?text=Hello%2C%20I%20am%20interested%20in%20Garjan%20Dandiyapali%20Plots%20%2F%20Duplex%20House%2C%20Rourkela.%20Please%20share%20details." target="_blank" rel="noopener">💬 Enquire on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 5. Bartoli Plot & Ready House -->
+      <article class="card">
+        <div class="card-top">
+          <span class="badge">Ready House</span>
+          <h3>Bartoli Plot &amp; Ready House</h3>
+          <div class="loc">📍 Bartoli, Near Sachita Flat — Main Road Side Property</div>
+        </div>
+        <div class="card-body">
+          <div class="price">Price on Enquiry<small>Call / WhatsApp for best price</small></div>
+          <div class="meta"><span>📐 6 Decimal Patta Land</span><span>📐 Position: 6.5 Decimal</span><span>🏠 G+1 Ready House • 3 BHK</span></div>
+          <ul class="highlights">
+            <li>Main road side property</li>
+            <li>G+1 ready house, 3 BHK home</li>
+            <li>Loan facility also available</li>
+          </ul>
+          <div class="card-foot">
+            <div class="contact-line">Contact: <a href="tel:+916371405733"><b>63714 05733</b></a></div>
+            <a class="wa-btn" href="https://wa.me/916371405733?text=Hello%2C%20I%20am%20interested%20in%20the%20Bartoli%20Plot%20%26%20Ready%20House%20%283%20BHK%29%2C%20Rourkela.%20Please%20share%20details." target="_blank" rel="noopener">💬 Enquire on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 6. Bangurkela -->
+      <article class="card">
+        <div class="card-top">
+          <span class="badge">Value Buying</span>
+          <h3>Bangurkela Plot</h3>
+          <div class="loc">📍 Bangurkela — near Jobaghat, Jhirpani</div>
+        </div>
+        <div class="card-body">
+          <div class="price">Rs.1,80,000<small>per decimal only</small></div>
+          <div class="meta"><span>📐 10 Decimal</span><span>📐 20 Decimal</span><span>📐 5 Decimal</span></div>
+          <ul class="highlights">
+            <li>8 KM from Jhirpani</li>
+            <li>2 KM from Bisra Market</li>
+            <li>800 metres from Bangurkela Railway Station</li>
+            <li>6 KM from Bartoli, Rourkela</li>
+            <li>20 feet main Govt pitch road attached to the plot</li>
+            <li>Litigation free</li>
+            <li>Value buying residential property</li>
+          </ul>
+          <div class="card-foot">
+            <div class="contact-line">Contact: <a href="tel:+916371405733"><b>63714 05733</b></a></div>
+            <a class="wa-btn" href="https://wa.me/916371405733?text=Hello%2C%20I%20am%20interested%20in%20the%20Bangurkela%20Plot%20%28near%20Jobaghat%2C%20Jhirpani%29.%20Please%20share%20details." target="_blank" rel="noopener">💬 Enquire on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 7. Garjan Prime Commercial Plot -->
+      <article class="card">
+        <div class="card-top">
+          <span class="badge">Commercial</span>
+          <h3>Garjan Prime Commercial Plot</h3>
+          <div class="loc">📍 Garjan, Rourkela</div>
+        </div>
+        <div class="card-body">
+          <div class="price">Price on Enquiry<small>Call / WhatsApp for best price</small></div>
+          <div class="meta"><span>📐 2 Decimal</span><span>📐 5 Decimal</span><span>⚠️ Only 2 plots available</span></div>
+          <ul class="highlights">
+            <li>Near Radha Krishna Temple</li>
+            <li>Near Vastu Bihar New Housing Project</li>
+            <li>Road-side commercial plot</li>
+            <li>Only 2 plots available</li>
+          </ul>
+          <div class="card-foot">
+            <div class="contact-line">Contact: <a href="tel:+916371405733"><b>63714 05733</b></a></div>
+            <a class="wa-btn" href="https://wa.me/916371405733?text=Hello%2C%20I%20am%20interested%20in%20the%20Garjan%20Prime%20Commercial%20Plot%2C%20Rourkela.%20Please%20share%20details." target="_blank" rel="noopener">💬 Enquire on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 8. Kuarmunda Chhend Plot -->
+      <article class="card">
+        <div class="card-top">
+          <span class="badge">Prime Location</span>
+          <h3>Kuarmunda Chhend Plot</h3>
+          <div class="loc">📍 Kuarmunda Chhend — Near Rourkela New RTO Office</div>
+        </div>
+        <div class="card-body">
+          <div class="price">Price on Enquiry<small>Call / WhatsApp for best price</small></div>
+          <ul class="highlights">
+            <li>Near Rourkela New RTO Office</li>
+            <li>100 metres from Fire Station</li>
+            <li>100 metres from Shree Radha Krishna Colony (Rourkela’s biggest colony)</li>
+          </ul>
+          <div class="card-foot">
+            <div class="contact-line">Contact: <a href="tel:+916371405733"><b>63714 05733</b></a></div>
+            <a class="wa-btn" href="https://wa.me/916371405733?text=Hello%2C%20I%20am%20interested%20in%20the%20Kuarmunda%20Chhend%20Plot%20%28near%20Rourkela%20New%20RTO%20Office%29.%20Please%20share%20details." target="_blank" rel="noopener">💬 Enquire on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 9. Kacharu Plot -->
+      <article class="card">
+        <div class="card-top">
+          <span class="badge">Best Location</span>
+          <h3>Kacharu Plot</h3>
+          <div class="loc">📍 Kacharu — Just 7 KM from Jhirpani</div>
+        </div>
+        <div class="card-body">
+          <div class="price">Price on Enquiry<small>Call / WhatsApp for best price</small></div>
+          <ul class="highlights">
+            <li>Just 300 metres from: Kacharu Market, Bus Stop, School, Hospital, Bank</li>
+            <li>Best location for residential plots</li>
+          </ul>
+          <div class="card-foot">
+            <div class="contact-line">Contact: <a href="tel:+916371405733"><b>63714 05733</b></a></div>
+            <a class="wa-btn" href="https://wa.me/916371405733?text=Hello%2C%20I%20am%20interested%20in%20the%20Kacharu%20Plot%20%28near%20Jhirpani%29.%20Please%20share%20details." target="_blank" rel="noopener">💬 Enquire on WhatsApp</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section class="why">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Why Prajapati Developer</div>
+      <h2>Plots You Can Trust</h2>
+      <p>Every project is listed with its real location, size and price — no hidden details.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="ic">📍</div>
+        <h3>Prime Locations</h3>
+        <p>Plots near markets, stations, schools &amp; hospitals across Rourkela.</p>
+      </div>
+      <div class="why-item">
+        <div class="ic">✅</div>
+        <h3>Litigation-Free</h3>
+        <p>Bangurkela plot is litigation free — clear title, peace of mind.</p>
+      </div>
+      <div class="why-item">
+        <div class="ic">🏦</div>
+        <h3>Loan Facility</h3>
+        <p>Loan facility available on the Bartoli ready house.</p>
+      </div>
+      <div class="why-item">
+        <div class="ic">🏡</div>
+        <h3>Home &amp; Investment</h3>
+        <p>Residential plots and investment options, starting at Rs.1,60,000 per decimal.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Get In Touch</div>
+      <h2>Book Your Plot Today</h2>
+      <p>Call or WhatsApp us — we will answer your questions and help you visit the plot.</p>
+    </div>
+    <div class="contact-cards">
+      <div class="c-card">
+        <div class="who">Main Contact</div>
+        <a class="num" href="tel:+916371405733">63714 05733</a>
+        <p>All projects &amp; general enquiries</p>
+      </div>
+      <div class="c-card">
+        <div class="who">Nuagaon Listing</div>
+        <a class="num" href="tel:+917847033507">78470 33507</a>
+        <p>Nuagaon Market Side Plot</p>
+      </div>
+      <div class="c-card">
+        <div class="who">Ushra Listing</div>
+        <a class="num" href="tel:+916371405734">63714 05734</a>
+        <p>Ushra Plot — Urgent Sale</p>
+      </div>
+    </div>
+    <div class="contact-cta">
+      <a class="btn btn-wa" href="https://wa.me/916371405733?text=Hello%2C%20I%20want%20to%20enquire%20about%20plots%20in%20Rourkela.%20Please%20share%20details." target="_blank" rel="noopener">💬 Chat on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <b>PRAJAPATI DEVELOPER</b> — Plots &amp; Property, Rourkela, Odisha<br>
+  Your Dreams, Our Plots! &nbsp;•&nbsp; Call: 63714 05733 &nbsp;•&nbsp; WhatsApp: 63714 05733<br>
+  Prices and details as shared by Prajapati Developer. Availability may change — please confirm on call/WhatsApp.
+</footer>
+
+<a class="float-wa" href="https://wa.me/916371405733?text=Hello%2C%20I%20want%20to%20enquire%20about%20plots%20in%20Rourkela.%20Please%20share%20details." target="_blank" rel="noopener">💬 WhatsApp</a>
+
+</body>
+</html>
