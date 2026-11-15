@@ -108,6 +108,11 @@
   .photo-grid figure{border-radius:14px;overflow:hidden;border:1px solid #e7dfc4;box-shadow:0 4px 14px rgba(11,61,46,.08);background:#fff;margin:0}
   .photo-grid img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
   .gallery-note{text-align:center;color:var(--muted);font-size:14px;margin-top:16px}
+  .gallery-sub{text-align:center;color:var(--green);font-size:20px;margin:30px 0 14px}
+  .gallery-cap{text-align:center;color:var(--muted);font-size:14px;margin:10px 0 22px}
+  .gallery-photo{max-width:400px;margin:0 auto;border-radius:14px;overflow:hidden;border:1px solid #e7dfc4;box-shadow:0 4px 14px rgba(11,61,46,.08);background:#fff}
+  .gallery-photo img{display:block;width:100%;height:auto}
+  .gallery-photo figcaption{padding:10px 12px;text-align:center;font-size:14px;font-weight:700;color:var(--green);background:var(--cream2)}
 
   /* ---------- Contact ---------- */
   .contact-cards{display:grid;grid-template-columns:1fr;gap:14px;max-width:720px;margin:0 auto}
@@ -328,14 +333,20 @@
           <div class="loc">📍 Garjan, Rourkela</div>
         </div>
         <div class="card-body">
-          <div class="price">Price on Enquiry<small>Call / WhatsApp for best price</small></div>
+          <div class="price">Rs.3,50,000<small>per decimal</small></div>
           <div class="meta"><span>📐 2 Decimal</span><span>📐 5 Decimal</span><span>⚠️ Only 2 plots available</span></div>
           <ul class="highlights">
+            <li>Plot No. 1 — 2 Decimal (~720 Sq. Ft.)</li>
+            <li>Plot No. 2 — 5 Decimal (~1800 Sq. Ft.)</li>
             <li>Near Radha Krishna Temple</li>
             <li>Near Vastu Bihar New Housing Project</li>
             <li>Road-side commercial plot</li>
             <li>Only 2 plots available</li>
           </ul>
+          <figure class="card-img">
+            <img src="garjan-layout.jpg" alt="Garjan Prime Commercial — Road-Side Plots layout" loading="lazy">
+            <figcaption>Garjan Prime Commercial — Road-Side Plots layout</figcaption>
+          </figure>
           <div class="card-foot">
             <div class="contact-line">Contact: <a href="tel:+916371405733"><b>63714 05733</b></a></div>
             <a class="wa-btn" href="https://wa.me/916371405733?text=Hello%2C%20I%20am%20interested%20in%20the%20Garjan%20Prime%20Commercial%20Plot%2C%20Rourkela.%20Please%20share%20details." target="_blank" rel="noopener">💬 Enquire on WhatsApp</a>
@@ -415,6 +426,18 @@
       <figure><img src="photo-5.jpg" alt="Plot site, Rourkela" loading="lazy"></figure>
       <figure><img src="photo-6.jpg" alt="Plot site, Rourkela" loading="lazy"></figure>
     </div>
+    <h3 class="gallery-sub">Garjan Prime Commercial</h3>
+    <div class="gallery-video">
+      <video controls preload="metadata" poster="garjan-site-photo.jpg" playsinline>
+        <source src="garjan-site-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <p class="gallery-cap">Garjan Prime Commercial — site video</p>
+    <figure class="gallery-photo">
+      <img src="garjan-site-photo.jpg" alt="Garjan Prime Commercial — site photo" loading="lazy">
+      <figcaption>Garjan Prime Commercial — site photo</figcaption>
+    </figure>
     <p class="gallery-note">Photos &amp; video: actual site, Rourkela plots (Jhirpani area). For the exact plot location of any listing, call or WhatsApp us.</p>
   </div>
 </section>
